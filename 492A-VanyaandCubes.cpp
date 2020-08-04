@@ -4,7 +4,7 @@
 #include <iostream>  //default header
 using namespace std; //namespace so no use for redundant std::
 
-
+// You could use the sum formula, but for a challenge I tried to figure it out using no formulas :)
 int main() // initalize
 {
     // Here, it might be a bit confusing to understand what I did because this is technically done "backwards" or counting down from the total.
