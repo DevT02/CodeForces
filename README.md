@@ -1,3 +1,2 @@
 # CodeForces
-fun stuff
-idk bro 🤔
+fun stuff bro 🤔
