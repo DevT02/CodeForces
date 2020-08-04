@@ -7,6 +7,7 @@ using namespace std; //namespace so no use for redundant std::
 
 int main() // initalize
 {
+    // Here, it might be a bit confusing to understand what I did because this is technically done "backwards" or counting down from the total.
     int total, rows = 0, complete = 1;  // Total = number of cubes. Rows = number of rows. Complete is the number by which i, or the decrementing number, will increase by.
     cin >> total; // input
     for (int i = 1; i <= total; i += complete) // Possible to use a while loop but i detest every while loop. i in here is going to directly influence the total cubes.
