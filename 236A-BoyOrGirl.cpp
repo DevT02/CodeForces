@@ -27,7 +27,6 @@ int main()
 
 // here is some other thing i wrote that achieves the same thing without use of special functions
 void lol(){
-    vector <string> store;
     string s;
     cin >> s;
     sort(s.begin(), s.end()); // sadbasgda == aaabddss
