@@ -23,3 +23,24 @@ int main()
         cout << "IGNORE HIM!";
  
 }
+
+
+// here is some other thing i wrote that achieves the same thing without use of special functions
+void lol(){
+    vector <string> store;
+    string s;
+    cin >> s;
+    sort(s.begin(), s.end()); // sadbasgda == aaabddss
+
+    for (int i = 0; i < s.length();i++) {
+        if (s[i + 1] == s[i]) {
+            s.erase(s.begin() + i, s.begin() + i + 1);
+        }
+    }
+    if (s.length() % 2 == 0) {
+        cout << "CHAT WITH HER!";
+    }
+    else {
+        cout << "IGNORE HIM!";
+    }
+}
