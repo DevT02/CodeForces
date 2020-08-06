@@ -29,7 +29,7 @@ int main()
 void lol(){
     string s;
     cin >> s;
-    sort(s.begin(), s.end()); // sadbasgda == aaabddss
+    sort(s.begin(), s.end()); // sorts by alphabet
 
     for (int i = 0; i < s.length();i++) {
         if (s[i + 1] == s[i]) {
